@@ -1,6 +1,6 @@
 {
   "name": "Nuvio Plugins",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Xuper + proveedores latino para Nuvio oficial",
   "author": "fagx",
   "scrapers": [
@@ -9,7 +9,7 @@
       "name": "Xuper",
       "description": "Películas y series vía Xuper",
       "version": "1.0.1",
-      "filename": "xuper.js",
+      "filename": "providers/xuper.js",
       "supportedTypes": [
         "movie",
         "tv"

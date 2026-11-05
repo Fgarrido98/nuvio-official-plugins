@@ -19,10 +19,10 @@ NUVIO = ROOT / "NuvioMobile"
 PROVIDER = NUVIO / "androidApp/src/full/assets/tv/provider.js"
 PROPERTIES = NUVIO / "local.properties"
 CRYPTOJS = HERE / "vendor/crypto-js.js"
-OUT_PLUGIN = HERE / "xuper.js"
+OUT_PLUGIN = HERE / "providers/xuper.js"
 OUT_MANIFEST = HERE / "manifest.json"
 
-MANIFEST_VERSION = "2.1.0"
+MANIFEST_VERSION = "2.2.0"
 XUPER_VERSION = "1.0.1"
 
 
@@ -376,7 +376,7 @@ module.exports = { getStreams: __xuperGetStreams };
             "name": "Xuper",
             "description": "Películas y series vía Xuper",
             "version": XUPER_VERSION,
-            "filename": "xuper.js",
+            "filename": "providers/xuper.js",
             "supportedTypes": ["movie", "tv"],
         }
     ]

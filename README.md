@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/Fgarrido98/nuvio-official-plugins/main/manifes
 
 ## Contenido
 
-- **Xuper** (`xuper.js`): plugin propio, con filtro por título y año. Requiere Nuvio 0.6.7+.
+- **Xuper** (`providers/xuper.js`): plugin propio, con filtro por título y año. Requiere Nuvio 0.6.7+.
 - **35 proveedores latinos** incluidos en `providers/`.
 
 El manifest descarga los `.js` desde **este repositorio**. Se guardó una copia local de cada archivo para que el repo siga funcionando si los originales los borran o cambian.
