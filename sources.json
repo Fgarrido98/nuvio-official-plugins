@@ -12,7 +12,6 @@
       "filename": "providers/allpeliculasse.js",
       "description": "Películas y series en Latino, Castellano y VOSE desde Allpeliculas.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/allpeliculasse.js",
       "sha256": "a966967eef48ff680fa7dcc3503795650b007649b7c330ffe2d960be543308ce"
     },
@@ -27,7 +26,6 @@
       "filename": "providers/animeav1.js",
       "description": "Portal de anime especializado con encode moderno y gran velocidad.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/animeav1.js",
       "sha256": "74f853fb46f28d5b307fc04c4966440b8f2902b68dfc5871f38cfbe4e4af47cd"
     },
@@ -42,7 +40,6 @@
       "filename": "providers/areshd.js",
       "description": "Películas y series en Latino y Español desde AresHD.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/areshd.js",
       "sha256": "6e2dac199cd6efe356e5701ea3a94bb15ae155132e1349c0bbd3dc622b62b4a3"
     },
@@ -57,7 +54,6 @@
       "filename": "providers/brazucaplay.js",
       "description": "Películas y series en Latino (vía Cuevana/Kayo).",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/brazucaplay.js",
       "sha256": "0e159f6275bfaf622c0bf1ce879e73a1919524602aebe145b789ef5172c23f70"
     },
@@ -71,7 +67,6 @@
       "filename": "providers/cinecalidad.js",
       "description": "Películas en HD (Latino) con servidores rápidos como Voe y Filemoon",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/cinecalidad.js",
       "sha256": "4c062dece9104afd6ada9d2487cb41fd8daa847e9779b8424edfc415e87f3f79"
     },
@@ -86,7 +81,6 @@
       "filename": "providers/cinemacity.js",
       "description": "Películas de estreno (Filtro Estricto Latino).",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/cinemacity.js",
       "sha256": "3367469e3f58a00397422060ed9dbb32564690bce1256fa1021eb972e0033c58"
     },
@@ -101,7 +95,6 @@
       "filename": "providers/cinemitas.js",
       "description": "Películas y series desde Cinemitas. Multi-resolución.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/cinemitas.js",
       "sha256": "83b69f0e3763d93ba98206ab5a3660d83905fff666aff6ef429ba6119d3aee36"
     },
@@ -116,7 +109,6 @@
       "filename": "providers/cuevanaubd.js",
       "description": "Proveedor rapido JSON nativo de Cuevana.",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/cuevana_unbuendato.js",
       "sha256": "74ac14c2696a2314fc7ba7bf2cb81a8607100fb63191198dba1c001e949581a0"
     },
@@ -131,7 +123,6 @@
       "filename": "providers/detodopeliculas.js",
       "description": "Streams en Latino desde Detodopeliculas.",
       "source": "KennethJYS/Nuvio-Providers-Latino",
-      "author": "KennethJYS",
       "source_filename": "providers/detodopeliculas.js",
       "sha256": "90d826c2c9549375ac1c36cb372e9d2decf705f14bf5d8c24ee9fa225fde93e3"
     },
@@ -145,7 +136,6 @@
       "filename": "providers/doramasflix.js",
       "description": "Doramas y series asiáticas en Latino y Subtitulado.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/doramasflix.js",
       "sha256": "6ea9ef36b8661c939bdf027bb39b1ccbc30707ccd337b37313c2a4599b28f8f7"
     },
@@ -160,7 +150,6 @@
       "filename": "providers/elifilms.js",
       "description": "Películas y series en Latino, Castellano y VOSE desde AllCalidad.re (EliFilms).",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/elifilms.js",
       "sha256": "897248d206f691db0ce1c576d6cbded0699ed96610c591a1064d85744e2f7b2b"
     },
@@ -175,7 +164,6 @@
       "filename": "providers/embed69.js",
       "description": "Películas y series vía embed69.org",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/embed69.js",
       "sha256": "24debed0b30ac2f3ccc9cd2f46199727d8ac0eb4750e4c1eb6897de01ef5669d"
     },
@@ -190,7 +178,6 @@
       "filename": "providers/entrepeliculasyseries.js",
       "description": "Películas y series en Latino, Castellano y VOSE desde EntrePeliculasySeries.nz.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/entrepeliculasyseries.js",
       "sha256": "84abc01c86ddada3ddd4b6c4201da8156d9357897aebbf1d570b60e6528d347a"
     },
@@ -205,7 +192,6 @@
       "filename": "providers/fuegocine.js",
       "description": "Películas y series con enlaces directos y alta velocidad.",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/fuegocine.js",
       "sha256": "1657e3c0d003ba6de23b5d1eef4fabd1cd1196a157eed31992d24650d91319f6"
     },
@@ -220,7 +206,6 @@
       "filename": "providers/hackstore.js",
       "description": "API Nativa de Películas en HD",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/hackstore2.js",
       "sha256": "162751ea38571206394bb82b91ddf025188b34aee6453f0b99f0ae99b1c82580"
     },
@@ -235,7 +220,6 @@
       "filename": "providers/henaojara.js",
       "description": "Gran catálogo de anime en audio latino y castellano desde henaojara.net.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/henaojara.js",
       "sha256": "36de890b72445d60bca42100c9d4214bea67f4363b4ecf27c2767f5285a1f41f"
     },
@@ -250,7 +234,6 @@
       "filename": "providers/lamovie.js",
       "description": "Proveedor premium con enlaces directos en 1080p y enfoque Latino.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/lamovie.js",
       "sha256": "1bb348efbe386bad831633bb9f02b102b42542d40427d621b3eab0207801c7cc"
     },
@@ -265,7 +248,6 @@
       "filename": "providers/megadedeoficial.js",
       "description": "Películas y series en Latino, Castellano y VOSE desde MegaDede.mobi.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/megadedeoficial.js",
       "sha256": "8f3b0ff64185bb6b488a9bbe0ee25b58ac8b1897a86e90185914902d86ec0f09"
     },
@@ -279,7 +261,6 @@
       "filename": "providers/monoschinos.js",
       "description": "Anime en VOSE/Latino con múltiples servidores. Resuelve vía embed69.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/monoschinos.js",
       "sha256": "7cee36d20249531eb1b155ffc180856c1a03482ea35bf808969b78b100eacb02"
     },
@@ -293,7 +274,6 @@
       "filename": "providers/peliculasflix.js",
       "description": "Películas en Latino, Español y VOSE con API GraphQL.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/peliculasflix.js",
       "sha256": "b68f847940faa697f2540c7046d4930357547bda3c1c0eaf90dadc314b387f06"
     },
@@ -308,7 +288,6 @@
       "filename": "providers/pelis182.js",
       "description": "Gran catálogo de películas y series en Latino/Español desde Pelis182.net.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/pelis182.js",
       "sha256": "4c3cd89a36515e13673d3d9e5050bf651c7d4c63f9451ad825b17044bf3d449e"
     },
@@ -323,7 +302,6 @@
       "filename": "providers/peliserieshoy.js",
       "description": "Streams en Latino desde PelisSeriesHoy.",
       "source": "KennethJYS/Nuvio-Providers-Latino",
-      "author": "KennethJYS",
       "source_filename": "providers/peliserieshoy.js",
       "sha256": "d4659ae20e1f380ff2f031acf303f18585d8db200c6fdc740c67df4233794025"
     },
@@ -338,7 +316,6 @@
       "filename": "providers/pelisgo.js",
       "description": "Descargas directas y streaming de alta fidelidad.",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/pelisgo.js",
       "sha256": "a22193ff92ae7407da2b4ed2b12196c481fa46d1d2ca2ddf0e954f3044ccbdb9"
     },
@@ -353,7 +330,6 @@
       "filename": "providers/pelisplus.js",
       "description": "Películas y series en espanol latino desde PelisPlusHD.la",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/pelisplus.js",
       "sha256": "4cfa3bbd8c2fb52197d06b4e707100cd5cfeb56d39ddb489acd04a6edddc2ca7"
     },
@@ -368,7 +344,6 @@
       "filename": "providers/pelisplushdnz.js",
       "description": "Películas y series desde pelisplushd.bz. Resuelve vía embed69.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/pelisplushdnz.js",
       "sha256": "6cb7640db8ea960769bc68ecec711d1756eec4ceab1ab05e7ec85d57a5586652"
     },
@@ -383,7 +358,6 @@
       "filename": "providers/playhubmax.js",
       "description": "API privada con contenido premium en Latino.",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/playhubmax.js",
       "sha256": "54eeaefdd8dfb5d2700597c7ac4fa6fd886951f17ee7511ee67710c8511e46a7"
     },
@@ -397,7 +371,6 @@
       "filename": "providers/seriesflix.js",
       "description": "Streams en Latino desde Seriesflix.",
       "source": "KennethJYS/Nuvio-Providers-Latino",
-      "author": "KennethJYS",
       "source_filename": "providers/seriesflix.js",
       "sha256": "33839467f3506772e7db1a754697b8d4e60044d81161c583c2b7096926e5f52d"
     },
@@ -412,7 +385,6 @@
       "filename": "providers/seriesmetro.js",
       "description": "Especialista en series y películas (Latino) con servidores Fastream",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/seriesmetro.js",
       "sha256": "368efe893779e0df37b681985a598de1f4f503a62e2c32df3d07e959995030a3"
     },
@@ -427,7 +399,6 @@
       "filename": "providers/sololatino.js",
       "description": "Servidores universales de alta gama con Player+ (Directo).",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/sololatino.js",
       "sha256": "070aba24149a48c4e62de42d83b9ac45655675d7e616d6913fdce9cca9e1d98c"
     },
@@ -442,7 +413,6 @@
       "filename": "providers/tioplus.js",
       "description": "Películas y series en HD (Latino) con bypass de doble Base64.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/tioplus.js",
       "sha256": "72db9861d6693f08b500e9d1d6dec28f467d55cdcc87343a54b682a9c527eb25"
     },
@@ -457,7 +427,6 @@
       "filename": "providers/verpelis.js",
       "description": "Películas y series actuales en español latino e inglés de verpelis.gratis.",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/verpelis.js",
       "sha256": "cc9ad83fd4c6fcd913b937fc525dcdee70cf1f66fd0c0f4212f7dd25bdf95f20"
     },
@@ -472,7 +441,6 @@
       "filename": "providers/videasy.js",
       "description": "Premium streams via OnionPlay & Cuevana (1080p Latino).",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/videasy.js",
       "sha256": "c03346e12359f161feaaafb982f96837d381c31d76ee5fef51d192e511095638"
     },
@@ -487,7 +455,6 @@
       "filename": "providers/vimeus.js",
       "description": "Películas, series y anime en Latino/Español vía Vimeus. Múltiples servidores (VOE, StreamWish, Filemoon, etc).",
       "source": "latinokodi/latinuvio-V2",
-      "author": "latinokodi",
       "source_filename": "providers/vimeus.js",
       "sha256": "97cef1659ae7286ad854fb6d7488feb0b9791378043988085de59a771b98f503"
     },
@@ -502,7 +469,6 @@
       "filename": "providers/xupalace.js",
       "description": "Películas y series en alta definición (Latino, Español y Subtitulado)",
       "source": "adrianjael/pluggin-latino",
-      "author": "adrianjael",
       "source_filename": "providers/xupalace.js",
       "sha256": "f8002b6f727099e31d5f6b6faa26c861167d4481d5412b78c36249d086acd38e"
     },
@@ -516,7 +482,6 @@
       "filename": "providers/zoowomaniacos.js",
       "description": "Películas de culto, cine de autor y difíciles de encontrar. OkRu.",
       "source": "KennethJYS/Nuvio-Providers-Latino",
-      "author": "KennethJYS",
       "source_filename": "providers/zoowomaniacos.js",
       "sha256": "3e88cfc5e1d024067056cb610a5c2f5db1357050af18cdba0f2288d6a1e279a4"
     }
