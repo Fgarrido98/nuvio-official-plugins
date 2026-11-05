@@ -22,7 +22,8 @@ CRYPTOJS = HERE / "vendor/crypto-js.js"
 OUT_PLUGIN = HERE / "xuper.js"
 OUT_MANIFEST = HERE / "manifest.json"
 
-VERSION = "1.0.1"
+MANIFEST_VERSION = "2.0.0"
+XUPER_VERSION = "1.0.1"
 
 
 def property_value(name: str) -> str:
@@ -369,21 +370,42 @@ module.exports = { getStreams: __xuperGetStreams };
         .replace("__PROVIDER__", provider)
     )
     OUT_PLUGIN.write_text(generated, encoding="utf-8")
-    manifest = {
-        "name": "Nuvio Xuper",
-        "version": VERSION,
-        "description": "Xuper para Nuvio oficial",
-        "author": "fagx",
-        "scrapers": [
-            {
-                "id": "xuper",
-                "name": "Xuper",
-                "description": "Películas y series vía Xuper",
-                "version": VERSION,
-                "filename": "xuper.js",
-                "supportedTypes": ["movie", "tv"],
+    scrapers = [
+        {
+            "id": "xuper",
+            "name": "Xuper",
+            "description": "Películas y series vía Xuper",
+            "version": XUPER_VERSION,
+            "filename": "xuper.js",
+            "supportedTypes": ["movie", "tv"],
+        }
+    ]
+    sources_path = HERE / "sources.json"
+    if sources_path.is_file():
+        data = json.loads(sources_path.read_text(encoding="utf-8"))
+        for provider in data.get("providers", []):
+            filename = str(provider.get("filename", "")).strip()
+            if not filename:
+                continue
+            entry = {
+                "id": provider["id"],
+                "name": provider["name"],
+                "version": provider.get("version", "1.0.0"),
+                "filename": filename,
+                "supportedTypes": provider.get("supportedTypes", ["movie", "tv"]),
             }
-        ],
+            description = provider.get("description")
+            if description:
+                entry["description"] = description
+            if provider.get("hasSettings"):
+                entry["hasSettings"] = True
+            scrapers.append(entry)
+    manifest = {
+        "name": "Nuvio Plugins",
+        "version": MANIFEST_VERSION,
+        "description": "Xuper + proveedores latino para Nuvio oficial",
+        "author": "fagx",
+        "scrapers": scrapers,
     }
     OUT_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"generado {OUT_PLUGIN} ({OUT_PLUGIN.stat().st_size} bytes)")
