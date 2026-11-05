@@ -24,7 +24,20 @@ https://raw.githubusercontent.com/Fgarrido98/nuvio-official-plugins/main/manifes
   - [latinokodi/latinuvio-V2](https://github.com/latinokodi/latinuvio-V2)
   - [adrianjael/pluggin-latino](https://github.com/adrianjael/pluggin-latino)
 
-El manifest apunta directamente a los archivos `.js` originales de esos repositorios. **No se copia ni se redistribuye su código**: Nuvio lo descarga desde el repositorio de origen. Todo el crédito es para sus autores.
+El manifest descarga los `.js` desde **este repositorio**, en `providers/`. Se guardó una copia local de cada archivo para que el repo siga funcionando si los repositorios originales los borran o cambian.
+
+Los archivos originales vienen de:
+
+- [KennethJYS/Nuvio-Providers-Latino](https://github.com/KennethJYS/Nuvio-Providers-Latino)
+- [latinokodi/latinuvio-V2](https://github.com/latinokodi/latinuvio-V2)
+- [adrianjael/pluggin-latino](https://github.com/adrianjael/pluggin-latino)
+
+Todo el crédito es para sus autores. Para refrescar las copias desde los originales:
+
+```bash
+python3 sync_vendors.py
+python3 build.py
+```
 
 Proveedores incluidos:
 
@@ -35,6 +48,6 @@ Se excluyeron `pelispanda` y `pelisyseries` porque en las pruebas fallaban con e
 ## Avisos
 
 - `xuper.js` incluye la clave interna del portal Xuper para cifrar las peticiones. Cualquiera que descargue el archivo puede extraerla.
-- Los repositorios de origen no declaran licencia. Si eres autor y quieres que se retire un proveedor, abre un issue en este repositorio.
+- Los repositorios de origen no declaran licencia. Se conservan copias locales para disponibilidad; si un autor pide que se retire su proveedor, se elimina.
 - Algunos proveedores pueden fallar o estar caídos; se pueden desactivar individualmente en Nuvio.
 - Si actualizas el repositorio, refresca el repositorio en Nuvio para que baje los cambios.

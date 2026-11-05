@@ -1,6 +1,6 @@
 {
   "name": "Nuvio Plugins",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Xuper + proveedores latino para Nuvio oficial",
   "author": "fagx",
   "scrapers": [
@@ -19,7 +19,7 @@
       "id": "allpeliculasse",
       "name": "AllpeliculasSE",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/allpeliculasse.js",
+      "filename": "providers/allpeliculasse.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -30,7 +30,7 @@
       "id": "animeav1",
       "name": "AnimeAV1",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/animeav1.js",
+      "filename": "providers/animeav1.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -41,7 +41,7 @@
       "id": "areshd",
       "name": "AresHD",
       "version": "1.1.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/areshd.js",
+      "filename": "providers/areshd.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -52,7 +52,7 @@
       "id": "brazucaplay",
       "name": "BrazucaPlay",
       "version": "1.0.1",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/brazucaplay.js",
+      "filename": "providers/brazucaplay.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -63,7 +63,7 @@
       "id": "cinecalidad",
       "name": "CineCalidad",
       "version": "2.3.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/cinecalidad.js",
+      "filename": "providers/cinecalidad.js",
       "supportedTypes": [
         "movie"
       ],
@@ -73,7 +73,7 @@
       "id": "cinemacity",
       "name": "CinemaCity",
       "version": "1.0.4",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/cinemacity.js",
+      "filename": "providers/cinemacity.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -84,7 +84,7 @@
       "id": "cinemitas",
       "name": "Cinemitas",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/cinemitas.js",
+      "filename": "providers/cinemitas.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -95,7 +95,7 @@
       "id": "cuevanaubd",
       "name": "Cuevana UBD",
       "version": "1.2.0",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/cuevana_unbuendato.js",
+      "filename": "providers/cuevanaubd.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -106,7 +106,7 @@
       "id": "detodopeliculas",
       "name": "Detodopeliculas",
       "version": "2.0.0",
-      "filename": "https://raw.githubusercontent.com/KennethJYS/Nuvio-Providers-Latino/main/providers/detodopeliculas.js",
+      "filename": "providers/detodopeliculas.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -117,7 +117,7 @@
       "id": "doramasflix",
       "name": "DoramasFlix",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/doramasflix.js",
+      "filename": "providers/doramasflix.js",
       "supportedTypes": [
         "tv"
       ],
@@ -127,7 +127,7 @@
       "id": "elifilms",
       "name": "EliFilms",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/elifilms.js",
+      "filename": "providers/elifilms.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -138,7 +138,7 @@
       "id": "embed69",
       "name": "Embed69",
       "version": "3.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/embed69.js",
+      "filename": "providers/embed69.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -149,7 +149,7 @@
       "id": "entrepeliculasyseries",
       "name": "EntrePeliculasySeries",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/entrepeliculasyseries.js",
+      "filename": "providers/entrepeliculasyseries.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -160,7 +160,7 @@
       "id": "fuegocine",
       "name": "FuegoCine",
       "version": "7.0.3",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/fuegocine.js",
+      "filename": "providers/fuegocine.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -171,7 +171,7 @@
       "id": "hackstore",
       "name": "HackStore",
       "version": "12.9.2",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/hackstore2.js",
+      "filename": "providers/hackstore.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -182,7 +182,7 @@
       "id": "henaojara",
       "name": "Henaojara",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/henaojara.js",
+      "filename": "providers/henaojara.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -193,7 +193,7 @@
       "id": "lamovie",
       "name": "LaMovie",
       "version": "2.5.5",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/lamovie.js",
+      "filename": "providers/lamovie.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -204,7 +204,7 @@
       "id": "megadedeoficial",
       "name": "MegaDedeOficial",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/megadedeoficial.js",
+      "filename": "providers/megadedeoficial.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -215,7 +215,7 @@
       "id": "monoschinos",
       "name": "MonosChinos",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/monoschinos.js",
+      "filename": "providers/monoschinos.js",
       "supportedTypes": [
         "tv"
       ],
@@ -225,7 +225,7 @@
       "id": "peliculasflix",
       "name": "PeliculasFlix",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/peliculasflix.js",
+      "filename": "providers/peliculasflix.js",
       "supportedTypes": [
         "movie"
       ],
@@ -235,7 +235,7 @@
       "id": "pelis182",
       "name": "Pelis182",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/pelis182.js",
+      "filename": "providers/pelis182.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -246,7 +246,7 @@
       "id": "peliserieshoy",
       "name": "PelisSeriesHoy",
       "version": "2.0.0",
-      "filename": "https://raw.githubusercontent.com/KennethJYS/Nuvio-Providers-Latino/main/providers/peliserieshoy.js",
+      "filename": "providers/peliserieshoy.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -257,7 +257,7 @@
       "id": "pelisgo",
       "name": "PelisGo",
       "version": "9.1.0",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/pelisgo.js",
+      "filename": "providers/pelisgo.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -268,7 +268,7 @@
       "id": "pelisplus",
       "name": "PelisPlusHD",
       "version": "12.7.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/pelisplus.js",
+      "filename": "providers/pelisplus.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -279,7 +279,7 @@
       "id": "pelisplushdnz",
       "name": "PelisPlusHD NZ",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/pelisplushdnz.js",
+      "filename": "providers/pelisplushdnz.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -290,7 +290,7 @@
       "id": "playhubmax",
       "name": "PlayHubMax",
       "version": "2.0.0",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/playhubmax.js",
+      "filename": "providers/playhubmax.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -301,7 +301,7 @@
       "id": "seriesflix",
       "name": "Seriesflix",
       "version": "2.0.0",
-      "filename": "https://raw.githubusercontent.com/KennethJYS/Nuvio-Providers-Latino/main/providers/seriesflix.js",
+      "filename": "providers/seriesflix.js",
       "supportedTypes": [
         "tv"
       ],
@@ -311,7 +311,7 @@
       "id": "seriesmetro",
       "name": "SeriesMetro",
       "version": "2.4.0",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/seriesmetro.js",
+      "filename": "providers/seriesmetro.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -322,7 +322,7 @@
       "id": "sololatino",
       "name": "SoloLatino",
       "version": "3.3.0",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/sololatino.js",
+      "filename": "providers/sololatino.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -333,7 +333,7 @@
       "id": "tioplus",
       "name": "TioPlus",
       "version": "2.1.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/tioplus.js",
+      "filename": "providers/tioplus.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -344,7 +344,7 @@
       "id": "verpelis",
       "name": "VerPelis",
       "version": "1.0.0",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/verpelis.js",
+      "filename": "providers/verpelis.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -355,7 +355,7 @@
       "id": "videasy",
       "name": "VidEasy Latino",
       "version": "2.8.1",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/videasy.js",
+      "filename": "providers/videasy.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -366,7 +366,7 @@
       "id": "vimeus",
       "name": "Vimeus",
       "version": "1.0.1",
-      "filename": "https://raw.githubusercontent.com/latinokodi/latinuvio-V2/main/providers/vimeus.js",
+      "filename": "providers/vimeus.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -377,7 +377,7 @@
       "id": "xupalace",
       "name": "XuPalace",
       "version": "6.1.0",
-      "filename": "https://raw.githubusercontent.com/adrianjael/pluggin-latino/main/providers/xupalace.js",
+      "filename": "providers/xupalace.js",
       "supportedTypes": [
         "movie",
         "tv"
@@ -388,7 +388,7 @@
       "id": "zoowomaniacos",
       "name": "Zoowomaniacos",
       "version": "2.0.0",
-      "filename": "https://raw.githubusercontent.com/KennethJYS/Nuvio-Providers-Latino/main/providers/zoowomaniacos.js",
+      "filename": "providers/zoowomaniacos.js",
       "supportedTypes": [
         "movie"
       ],
