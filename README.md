@@ -10,7 +10,7 @@ Repositorio de plugins para **Nuvio oficial 0.6.7-beta o superior**.
 4. Pega esta URL:
 
 ```text
-https://raw.githubusercontent.com/Fgarrido98/nuvio-official-plugins/main/manifest.json
+https://raw.githubusercontent.com/Fgarrido98/nuvio-official-plugins/refs/heads/main/manifest.json
 ```
 
 5. Activa o desactiva los proveedores que quieras.
