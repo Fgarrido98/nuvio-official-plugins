@@ -16,6 +16,10 @@ https://raw.githubusercontent.com/Fgarrido98/nuvio-official-plugins/refs/heads/m
 5. Activa o desactiva los proveedores que quieras.
 6. Abre una película o serie y espera unos segundos.
 
+## Catálogo
+
+Hay una lista de otros repos de plugins y addons latinos, con estado y notas, en [CATALOG.md](CATALOG.md).
+
 ## Contenido
 
 - **Xuper** (`providers/xuper.js`): plugin propio, con filtro por título y año. Requiere Nuvio 0.6.7+.
