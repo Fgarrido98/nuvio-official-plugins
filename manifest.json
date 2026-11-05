@@ -1,0 +1,19 @@
+{
+  "name": "Nuvio Xuper",
+  "version": "1.0.1",
+  "description": "Xuper para Nuvio oficial",
+  "author": "fagx",
+  "scrapers": [
+    {
+      "id": "xuper",
+      "name": "Xuper",
+      "description": "Películas y series vía Xuper",
+      "version": "1.0.1",
+      "filename": "xuper.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ]
+    }
+  ]
+}
