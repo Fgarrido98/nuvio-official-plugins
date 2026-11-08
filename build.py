@@ -22,7 +22,7 @@ CRYPTOJS = HERE / "vendor/crypto-js.js"
 OUT_PLUGIN = HERE / "providers/xuper.js"
 OUT_MANIFEST = HERE / "manifest.json"
 
-MANIFEST_VERSION = "2.2.0"
+MANIFEST_VERSION = "2.3.0"
 XUPER_VERSION = "1.0.1"
 
 

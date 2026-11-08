@@ -23,7 +23,7 @@ Hay una lista de otros repos de plugins y addons latinos, con estado y notas, en
 ## Contenido
 
 - **Xuper** (`providers/xuper.js`): plugin propio, con filtro por título y año. Requiere Nuvio 0.6.7+.
-- **35 proveedores latinos** incluidos en `providers/`.
+- **36 proveedores latinos** incluidos en `providers/`.
 
 El manifest descarga los `.js` desde **este repositorio**. Se guardó una copia local de cada archivo para que el repo siga funcionando si los originales los borran o cambian.
 
@@ -36,7 +36,7 @@ python3 build.py
 
 Proveedores incluidos:
 
-`allpeliculasse`, `animeav1`, `areshd`, `brazucaplay`, `cinecalidad`, `cinemacity`, `cinemitas`, `cuevanaubd`, `detodopeliculas`, `doramasflix`, `elifilms`, `embed69`, `entrepeliculasyseries`, `fuegocine`, `hackstore`, `henaojara`, `lamovie`, `megadedeoficial`, `monoschinos`, `peliculasflix`, `pelis182`, `peliserieshoy`, `pelisgo`, `pelisplus`, `pelisplushdnz`, `playhubmax`, `seriesflix`, `seriesmetro`, `sololatino`, `tioplus`, `verpelis`, `videasy`, `vimeus`, `xupalace`, `zoowomaniacos`.
+`allpeliculasse`, `animeav1`, `areshd`, `brazucaplay`, `cinecalidad`, `cinemacity`, `cinemitas`, `cuevanaubd`, `detodopeliculas`, `doramasflix`, `elifilms`, `embed69`, `entrepeliculasyseries`, `fuegocine`, `hackstore`, `henaojara`, `lamovie`, `mega1080`, `megadedeoficial`, `monoschinos`, `peliculasflix`, `pelis182`, `peliserieshoy`, `pelisgo`, `pelisplus`, `pelisplushdnz`, `playhubmax`, `seriesflix`, `seriesmetro`, `sololatino`, `tioplus`, `verpelis`, `videasy`, `vimeus`, `xupalace`, `zoowomaniacos`.
 
 Se excluyeron `pelispanda` y `pelisyseries` porque en las pruebas fallaban con errores del propio proveedor (`setTimeout is not defined` y `fetch ... not a function`).
 

@@ -1,6 +1,6 @@
 {
   "name": "Nuvio Plugins",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Xuper + proveedores latino para Nuvio oficial",
   "author": "fagx",
   "scrapers": [
@@ -210,6 +210,17 @@
         "tv"
       ],
       "description": "Películas y series en Latino, Castellano y VOSE desde MegaDede.mobi."
+    },
+    {
+      "id": "mega1080",
+      "name": "Mega1080",
+      "version": "1.0.0",
+      "filename": "providers/mega1080.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "description": "Películas y series en Latino desde Mega1080 (servidores Vimeos)."
     },
     {
       "id": "monoschinos",

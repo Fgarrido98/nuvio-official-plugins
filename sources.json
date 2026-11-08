@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "providers": [
     {
       "id": "allpeliculasse",
@@ -250,6 +250,18 @@
       "source": "latinokodi/latinuvio-V2",
       "source_filename": "providers/megadedeoficial.js",
       "sha256": "8f3b0ff64185bb6b488a9bbe0ee25b58ac8b1897a86e90185914902d86ec0f09"
+    },
+    {
+      "id": "mega1080",
+      "name": "Mega1080",
+      "version": "1.0.0",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/mega1080.js",
+      "description": "Películas y series en Latino desde Mega1080 (servidores Vimeos).",
+      "sha256": "df7e28632041214612ec0cb10e2369cd77c41e9ad5c0d2a664de392819663658"
     },
     {
       "id": "monoschinos",
