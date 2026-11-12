@@ -1,6 +1,6 @@
 {
   "name": "Nuvio Plugins",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Xuper + proveedores latino para Nuvio oficial",
   "author": "fagx",
   "scrapers": [
@@ -404,6 +404,17 @@
         "movie"
       ],
       "description": "Películas de culto, cine de autor y difíciles de encontrar. OkRu."
+    },
+    {
+      "id": "primesrc",
+      "name": "PrimeSrc 4K",
+      "description": "Servidores 2160p UHD/DoVi (Mixdrop). Requiere un runtime que resuelva Cloudflare.",
+      "version": "1.0.0",
+      "filename": "providers/primesrc.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ]
     }
   ]
 }
