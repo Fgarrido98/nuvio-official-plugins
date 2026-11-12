@@ -1,9 +1,10 @@
 /**
- * PrimeSrc 4K — índice de servidores con archivos 2160p (UHD/DoVi) y resolución Mixdrop.
+ * PrimeSrc 4K/1080p — índice de servidores con archivos 2160p (UHD/DoVi) y 1080p, y
+ * resolución Mixdrop.
  *
  * Flujo (verificado con Dune: Part Two, TMDB 693134):
  *   GET /api/v1/s?tmdb={id}&type=movie|tv[&season=&episode=]
- *     -> servers[].file_name incluye "2160p" y una key
+ *     -> servers[].file_name incluye "2160p"/"1080p" y una key
  *   GET /api/v1/l?key={key}
  *     -> {"link":"https://mixdrop.ag/e/...","host":"mixdrop.ag"}   (Cloudflare)
  *   embed mixdrop -> packer -> MDCore.wurl -> https://{cdn}.mxcontent.net/v2/{id}.mp4
@@ -15,7 +16,7 @@
  */
 
 var API = "https://primesrc.me/api/v1";
-var MAX_SERVERS = 8;
+var MAX_SERVERS = 10;
 var UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36";
 
 function getJson(url, headers) {
@@ -37,8 +38,14 @@ function qualityOf(server) {
   return null;
 }
 
-function is4k(server) {
-  return qualityOf(server) === "2160p";
+function isPreferred(server) {
+  var quality = qualityOf(server);
+  return quality === "2160p" || quality === "1080p";
+}
+
+// 4K primero, luego 1080p; dentro de cada calidad se conserva el orden del proveedor.
+function qualityRank(server) {
+  return qualityOf(server) === "2160p" ? 0 : 1;
 }
 
 // ── Packer de Dean Edwards (mixdrop) ─────────────────────────────────
@@ -112,7 +119,10 @@ function getStreams(tmdbId, mediaType, season, episode) {
   }
 
   return getJson(query).then(function (data) {
-    var servers = (data.servers || []).filter(is4k).slice(0, MAX_SERVERS);
+    var servers = (data.servers || [])
+      .filter(isPreferred)
+      .sort(function (a, b) { return qualityRank(a) - qualityRank(b); })
+      .slice(0, MAX_SERVERS);
     var streams = [];
     var chain = Promise.resolve();
 
@@ -125,16 +135,16 @@ function getStreams(tmdbId, mediaType, season, episode) {
           return resolveEmbed(info.link).then(function (resolved) {
             if (!resolved) return null;
             streams.push({
-              name: "PrimeSrc 4K",
-              title: "2160p · " + (info.host || server.name),
+              name: "PrimeSrc 4K/1080p",
+              title: qualityOf(server) + " · " + (info.host || server.name),
               url: resolved.url,
-              quality: "2160p",
+              quality: qualityOf(server),
               headers: resolved.headers
             });
             return null;
           });
         }).catch(function (error) {
-          // Un servidor 4K caído no debe tumbar los demás.
+          // Un servidor caído no debe tumbar los demás.
           console.log("[PrimeSrc] " + server.name + ": " + (error && error.message ? error.message : error));
           return null;
         });

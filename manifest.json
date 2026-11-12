@@ -1,6 +1,6 @@
 {
   "name": "Nuvio Plugins",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "Xuper + proveedores latino para Nuvio oficial",
   "author": "fagx",
   "scrapers": [
@@ -407,9 +407,9 @@
     },
     {
       "id": "primesrc",
-      "name": "PrimeSrc 4K",
-      "description": "Servidores 2160p UHD/DoVi (Mixdrop). Requiere un runtime que resuelva Cloudflare.",
-      "version": "1.0.0",
+      "name": "PrimeSrc 4K/1080p",
+      "description": "Servidores 2160p UHD/DoVi y 1080p (Mixdrop). Requiere un runtime que resuelva Cloudflare.",
+      "version": "1.0.1",
       "filename": "providers/primesrc.js",
       "supportedTypes": [
         "movie",

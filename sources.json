@@ -1,5 +1,5 @@
 {
-  "version": "2.3.1",
+  "version": "2.3.2",
   "providers": [
     {
       "id": "allpeliculasse",
@@ -499,17 +499,17 @@
     },
     {
       "id": "primesrc",
-      "name": "PrimeSrc 4K",
-      "version": "1.0.0",
+      "name": "PrimeSrc 4K/1080p",
+      "version": "1.0.1",
       "supportedTypes": [
         "movie",
         "tv"
       ],
       "filename": "providers/primesrc.js",
-      "description": "Servidores 2160p UHD/DoVi (Mixdrop). Requiere un runtime que resuelva Cloudflare.",
+      "description": "Servidores 2160p UHD/DoVi y 1080p (Mixdrop). Requiere un runtime que resuelva Cloudflare.",
       "source": "Fgarrido98/nuvio-official-plugins",
       "source_filename": "providers/primesrc.js",
-      "sha256": "66a5cf3cdaa04c4099d6119e84c5c73af8df5a9297e41b44b8df416ab8aaa38c"
+      "sha256": "45ace2b7d8c849dfbb801fd262c6a2042a733b5d5fbfcdd77948916e021b55af"
     }
   ]
 }
